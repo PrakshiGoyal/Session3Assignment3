@@ -1,0 +1,10 @@
+Hadoop 2.x has the following major components:
+
+1)HDFS
+HDFS is the acronym for hadoop distributed file system. HDFS is the file system to store huge amounts of data on Hadoop.It is suitable for the distributed storage and processing.HDFS has built in servers of NameNode and DataNode.Also there is a secondary name node present to provide high availability.All the datanodes act as slave nodes and run on low cost commodity machines whereas the NameNode acts as the primary master node.NameNode manages the file system interface.
+
+2)Yarn
+Yarn is the acronym for Yet Another Resource Negotiator.The main idea of Yarn isto split up the functions of resource management and scheduling of the job into seperate background threads called daemons .Since Hadoop works on ditributed systems, YARN ensures the optimised utilisation of resources. YARN is characterized as a large scale  operating system for distributed big data applications.
+
+3)MapReduce
+MapReduce does the processing on data stored in HDFS. It follows the divide and conquer policy.The process of segregation is called Mapper and the process of aggregation is called Reduce.MapReduce also follows the master slave architecture.
